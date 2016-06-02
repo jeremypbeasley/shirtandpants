@@ -1,0 +1,23 @@
+{
+  "name": "sitename",
+  "version": "0.0.0",
+  "authors": [
+    "Jeremy Paul Beasley <jeremy@jeremypbeasley.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "description": "-q",
+  "main": "bower",
+  "dependencies": {
+    "normalize.css": "latest",
+    "jquery": "latest",
+    "velocity": "latest",
+    "flexboxgrid": "5.0.0"
+  }
+}
