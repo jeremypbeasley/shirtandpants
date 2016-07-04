@@ -7,6 +7,6 @@
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-stylus": "^0.20.0",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-remove": "^0.1.0",
+    "grunt-remove": "^0.1.0"
   }
 }

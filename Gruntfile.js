@@ -8,28 +8,28 @@ module.exports = function(grunt) {
       },
       compile: {
         files: {
-          'html/master.css': 'app/_styles/master.styl',
+          'dist/master.css': 'src/_styles/master.styl',
         }
       }
     },
     concat: {
       dist: {
-        src: ['node_modules/jquery/dist/jquery.min.js', 'app/_scripts/main.js'],
-        dest: 'html/master.js',
+        src: ['node_modules/jquery/dist/jquery.min.js', 'src/_scripts/main.js'],
+        dest: 'dist/master.js',
       }
     },
     concat: {   
       dist: {
         src: [
           'bower_components/jquery/dist/jquery.js',
-          'app/_scripts/main.js'
+          'src/_scripts/main.js'
         ], 
-        dest: 'html/master.js',
+        dest: 'dist/master.js',
       }
     },
     watch: {
       scripts: {
-        files: ['app/_scripts/*.js', 'Gruntfile.js', 'app/_styles/*.styl'],
+        files: ['src/_scripts/*.js', 'Gruntfile.js', 'src/_styles/*.styl'],
         tasks: ['concat', 'stylus'],
         options: {
           spawn: false
