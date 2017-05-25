@@ -1,47 +1,44 @@
-html
-	font-size 15px
-	font-family typeface-primary, serif
-	color: black;
-	@media laptop
-		font-size 15px
-
-body, p
-	font-size 1rem
-
+html {
+	font-size: 15px;
+	font-family: typeface-primary, serif;
+	background-color: --background-color;
+	color: --text-color-body;
+}
+@media laptop {
+	body {
+		font-size: 15px;
+	}
+}
+p {
+	font-size: 1rem;
+}
 .unselectable {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 }
 p {
-	line-height 190%
-	margin -.5em 0 1em 0
-	text-align left
+	line-height: 150%;
+	margin: -.5em 0 1em 0;
+	text-align: left;
 	cursor: default;
 	font-size: .9rem;
-}	
+}
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
 	color: --color-red;
 }
-strong { 
-	font-weight normal
+strong {
+	font-weight: normal;
 }
-
 h1,h2,h3,h4,h5,h6 {
-	margin 0 0
-	padding: 0 0
+	margin: 0 0;
+	padding: 0 0;
 	font-size: 1rem;
-	font-family: typeface-secondary
-	font-weight: normal
-	line-height 130%
-	position relative
-	z-index 9999
+	font-family: typeface-secondary;
+	font-weight: normal;
+	line-height: 125%;
+	position: relative;
+	z-index: 9999;
 	cursor: default;
-}
-.Display1 {
-	font-family: Calibre-Semibold;
-	font-size: 15px;
-	letter-spacing: .1rem;
-	text-transform: uppercase;
 }
