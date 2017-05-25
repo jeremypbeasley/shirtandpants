@@ -3,15 +3,14 @@ const app = express()
 const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(express.static('_public'));
 app.set('view engine', 'ejs');
 var _ = require("lodash");
-// var getJSON = require('get-json');
 
-// render the app
+// START THE APP
 
 app.get("/", (req, res) =>
   res.render("index.ejs"));
-  console.log('Listening at http://localhost:7000/')
+  console.log('Listening at http://localhost:8000/')
 
-app.listen(process.env.PORT || 7000);
+app.listen(process.env.PORT || 8000);

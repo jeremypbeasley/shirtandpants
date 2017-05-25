@@ -1,10 +1,9 @@
 {
   "name": "XXXXXX",
   "version": "0.0.0",
-  "description": "",
+  "description": "XXXXXXXXXXX",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
     "start": "nodemon app.js"
   },
   "repository": {
@@ -15,8 +14,8 @@
     "node": "6.9.1",
     "npm": "4.1.1"
   },
-  "author": "Jeremy P. Beasley",
-  "license": "ISC",
+  "author": "XXXXXXXXX",
+  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^0.7.12",
     "body-parser": "^1.9.0",
